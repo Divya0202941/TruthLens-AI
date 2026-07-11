@@ -49,6 +49,6 @@ def predict():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 7860))
-    print(f"🔥 TruthLens AI Running on port {port}")
+    print(f"TruthLens AI running on port {port}")
     app.run(host="0.0.0.0", port=port)
     # Quick test
